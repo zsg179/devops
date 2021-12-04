@@ -14,6 +14,6 @@ public class TestController {
     @GetMapping("/test")
     public String test() {
         System.out.println("收到请求");
-        return "aa";
+        return "bb";
     }
 }
