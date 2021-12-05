@@ -1,4 +1,4 @@
-FROM hub.c.163.com/dwyane/openjdk:8
+FROM adoptopenjdk:11-jre
 
 ADD target/*.jar app.jar
 
