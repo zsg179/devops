@@ -16,4 +16,10 @@ public class TestController {
         System.out.println("收到请求");
         return "dd";
     }
+
+    @GetMapping("/test2")
+    public String test2() {
+        System.out.println("收到请求");
+        return "测试请求";
+    }
 }
