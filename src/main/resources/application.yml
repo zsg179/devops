@@ -1,0 +1,17 @@
+server:
+  port: 8083
+
+spring:
+  profiles:
+    active: prod
+  application:
+    name: /
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:mysql://localhost:3306/devops
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+sys:
+  factory_conf_path: E:\factory_conf.yaml
